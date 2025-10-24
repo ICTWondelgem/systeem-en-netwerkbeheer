@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/dist/twemoji.min.js" crossorigin="anonymous"></script>
     <title>Voorbereiding Netwerk- en Systeembeheer Opleiding</title>
     <style>
         /* CSS is IDENTIEK aan de vorige site, inclusief de blauwe kleuren */
@@ -84,6 +85,11 @@
             text-decoration: underline;
         }
 
+        img.emoji {
+            width: 1em;
+            height: 1em;
+        }
+
     </style>
 </head>
 <body>
@@ -132,5 +138,8 @@
         
         <p>Zodra je deze voorbereidingsmodules hebt afgerond, ben je klaar om aan de opleiding te beginnen!</p>
     </div>
+    <script>
+        twemoji.parse(document.body);
+    </script>
 </body>
 </html>
